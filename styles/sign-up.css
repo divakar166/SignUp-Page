@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+* {
+  font-family: 'Raleway',sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #cef2f5;
+}
+
+.container {
+  height: 85vh;
+  width: 70vw;
+  background-color: #ffffff;
+  position: absolute;
+  top: 5vh;
+  -webkit-box-shadow: 0px 0px 20px 4px #a3a1a3;
+          box-shadow: 0px 0px 20px 4px #a3a1a3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form {
+  height: 90vh;
+  width: 50%;
+}
+
+.img {
+  height: 85vh;
+  width: 50%;
+}
+
+.img img {
+  height: 85vh;
+  position: absolute;
+  left: 30px;
+}
+
+.line, .check, .or {
+  position: relative;
+  font-size: 15px;
+  color: #aaa3a3;
+  font-weight: bold;
+  margin-top: -15px;
+}
+
+.name, .surname, .email, .pw {
+  height: 30px;
+  width: 38.4%;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px 2px #d6d4d6;
+          box-shadow: 0px 0px 5px 2px #d6d4d6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.name {
+  margin-right: 30px;
+}
+
+.surname-label {
+  position: relative;
+  left: 10.7em;
+}
+
+label {
+  color: #8b8383;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.email, .pw {
+  width: 87%;
+}
+
+.pw {
+  font: large Verdana;
+}
+
+#pass-status {
+  position: relative;
+  right: 30px;
+}
+
+input[type='checkbox'] {
+  width: 15px;
+  height: 15px;
+}
+
+.check {
+  position: relative;
+  left: 28px;
+  top: -5px;
+}
+
+a {
+  text-decoration: none;
+  color: #23bce2;
+}
+
+input[type='submit'] {
+  height: 40px;
+  width: 87%;
+  border-radius: 5px;
+  background-color: #2475e0;
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.or {
+  position: relative;
+  top: 20px;
+  left: 38%;
+}
+
+.signin {
+  position: absolute;
+  bottom: 8px;
+}
+
+.facebook {
+  height: 40px;
+  width: 40%;
+  background-color: #2475e0;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.facebook i {
+  width: 30%;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  color: #ffffff;
+}
+
+.facebook p {
+  width: 70%;
+  color: #ffffff;
+  position: relative;
+  bottom: 6px;
+  left: 10px;
+}
+
+.google {
+  height: 40px;
+  width: 40%;
+  background-color: #f31f1f;
+  border-radius: 5px;
+  position: relative;
+  left: 16.4vw;
+  bottom: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.google i {
+  width: 30%;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  color: #ffffff;
+}
+
+.google p {
+  width: 70%;
+  color: #ffffff;
+  position: relative;
+  bottom: 6px;
+  left: 10px;
+}
+
+.linkedin {
+  height: 40px;
+  width: 40%;
+  background-color: #0458c7;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  bottom: 30px;
+}
+
+.linkedin i {
+  width: 30%;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  color: #ffffff;
+}
+
+.linkedin p {
+  width: 70%;
+  color: #ffffff;
+  position: relative;
+  bottom: 6px;
+  left: 10px;
+}
+
+.mail {
+  height: 40px;
+  width: 40%;
+  border: 1px solid #2475e0;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 16.4vw;
+  bottom: 70px;
+}
+
+.mail i {
+  width: 30%;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  color: #2475e0;
+}
+
+.mail p {
+  width: 70%;
+  color: #2475e0;
+  position: relative;
+  bottom: 6px;
+  left: 10px;
+}
+
+::-webkit-input-placeholder {
+  color: #cfc7c7;
+}
+
+:-ms-input-placeholder {
+  color: #cfc7c7;
+}
+
+::-ms-input-placeholder {
+  color: #cfc7c7;
+}
+
+::placeholder {
+  color: #cfc7c7;
+}
+/*# sourceMappingURL=style.css.map */
